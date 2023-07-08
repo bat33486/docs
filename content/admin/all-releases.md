@@ -38,9 +38,7 @@ For more information about the latest release, see the [{% data variables.produc
 
 ### Deprecated developer documentation
 
-{% data variables.product.company_short %} hosted developer documentation for {% data variables.product.product_name %} on a separate site until the 2.17 release. {% data variables.product.company_short %} continues to provide developer documentation for version 2.16 and earlier, but does not maintain or update the documentation.
-
-| Version | Release | Deprecation | Developer documentation |
+{% data variables.product.company_short %} hosted developer documentation for {% data variables.product.product_name %} on a separate site until the 2.17 release. {% data variables.product.company_short %} continues to provide developer documentation for version no |
 | :- | :- | :- | :- |
 {%- for version in enterpriseServerReleases.deprecatedReleasesOnDeveloperSite %}
 | {{version}} | {{enterpriseServerReleases.dates[version].releaseDate}} | {{enterpriseServerReleases.dates[version].deprecationDate}} | [{{version}} developer documentation](https://developer.github.com/enterprise/{{version}}) |
